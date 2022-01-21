@@ -1,51 +1,57 @@
-    1  hostname node1
-    2  exit
-    3  git --version
-    4  apt update
-    5  apt install maven
-    6  java --version
-    7  mvn archetype:generate
-    8  ls
-    9  cd bank*
-   10  git init
-   11  git add .
-   12  git commit -m "Initial Commit"
-   13  git config --global user.email "glenneligio@gmail.com"
-   14  git config --global user.name "glenneligio"
-   15  git commit -m "Initial Commit"
-   16  git remote add origin git@github.com:GlennEligio/BankingMicroservice.git
-   17  git branch dev1
-   18  git branch dev2
-   19  git checkout dev1
-   20  ls
-   21  tree
-   22  apt install tree
-   23  tree
-   24  vi src/main/java/com/glenn/App.java
-   25  git add .
-   26  git commit -m "dev1 changed App.java"
-   27  git checkout dev2
-   28  vi src/main/java/com/glenn/App.java
-   29  git add .
-   30  git commit -m "dev2 changed App.java"
-   31  git checkout master
-   32  git merge dev1
-   33  git merge dev2
-   34  git mergetool
-   35  git merge dev2
-   36  git merge dev1
-   37  git mergetool --tool=vimdiff
-   38  git status
-   39  git commit -m "merge conflict resolved"
-   40  git clean
-   41  git clean -d -f
-   42  ls
-   43  tree
-   44  ssh-keygen
-   45  cat /root/.ssh/id_rsa.pub
-   46  git pull origin main
-   47  git push origin main
-   48  git push origin -all
-   49  git push origin --all
-   50  git push -f origin --all
-   51  history
+# Commands
+<br>
+<ul>
+   <li>hostname node1</li>
+   <li>exit</li>
+   <li>sudo su</li>
+   <li>git --version</li>
+   <li>apt update</li>
+   <li>apt install maven</li>
+   <li>java --version</li>
+   <li>mvn archetype:generate</li>
+   <li>ls</li>
+   <li>cd bank*</li>
+   <li>git init</li>
+   <li>git add .</li>
+   <li>git commit -m "Initial Commit"</li>
+   <li>git config --global user.email "glenneligio@gmail.com"</li>
+   <li>git config --global user.name "glenneligio"</li>
+   <li>git commit -m "Initial Commit"</li>
+   <li>git remote add origin git@github.com:GlennEligio/BankingMicroservice.git</li>
+   <li>git branch dev1</li>
+   <li>git branch dev2</li>
+   <li>git checkout dev1</li>
+   <li>ls</li>
+   <li>apt install tree</li>
+   <li>tree</li>
+   <li>vi src/main/java/com/glenn/App.java</li>
+   <li>git add .</li>
+   <li>git commit -m "dev1 changed App.java"</li>
+   <li>git checkout dev2</li>
+   <li>vi src/main/java/com/glenn/App.java</li>
+   <li>git add .</li>
+   <li>git commit -m "dev2 changed App.java"</li>
+   <li>git checkout master</li>
+   <li>git merge dev1</li>
+   <li>git merge dev2</li>
+   <li>git mergetool --tool=vimdiff</li>
+   <li>git status</li>
+   <li>git commit -m "merge conflict resolved"</li>
+   <li>git clean -d -f</li>
+   <li>ls</li>
+   <li>tree</li>
+   <li>ssh-keygen</li>
+   <li>cat /root/.ssh/id_rsa.pub</li>
+   <li>git push -f origin --all</li>
+   <li>history</li>
+   <li>git log --oneline</li>
+</ul>
+<br>
+# Commit logs
+<br>
+<ul>
+    <li>f5dfefc (HEAD -> master, origin/master) merge conflict resolved</li>
+    <li>faf3155 (origin/dev2, dev2) dev2 changed App.java</li>
+    <li>54f3d65 (origin/dev1, dev1) dev1 changed App.java</li>
+    <li>582224c Initial Commit</li>
+</ul>
