@@ -10,5 +10,6 @@ public class App
     {
         System.out.println( "Hello World! from dev1" );
         System.out.println( "Hello World! from dev2" );
+	System.out.println( "Hello World! from the build trigger")
     }
 }
